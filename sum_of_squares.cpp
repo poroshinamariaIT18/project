@@ -8,7 +8,7 @@ using namespace std;
 string to_str(long long int m) {
 	return to_string(m); 
 }
-// Умножение больших чисел, представленных строками
+// Умножение больших чисел, представленных строками, способом умножения столбиком
 string multiply_large_numbers(string a, string b) {
     int len_a = a.length();
 	int len_b = b.length(); // длины строк a и b 
